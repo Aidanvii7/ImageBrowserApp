@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="AppTheme.Base" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Text.Base" parent="@android:style/TextAppearance.Medium">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.32</item>
+    </style>
+
+    <style name="Text.Normal" parent="Text.Base">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Normal.Primary" parent="Text.Normal">
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Text.Normal.Secondary" parent="Text.Normal">
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="Text.Title" parent="Text.Base">
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Style_ShimmerFrameLayout">
+        <item name="shimmer_highlight_color">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="shimmer_auto_start">true</item>
+    </style>
+
+</resources>

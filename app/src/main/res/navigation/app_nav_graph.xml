@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_nav_graph"
+    app:startDestination="@id/destination_main">
+
+    <fragment
+        android:id="@+id/destination_main"
+        android:name="com.imagebrowser.app.presentation.SplashFragment"
+        android:label="MainFragment">
+        <action
+            android:id="@+id/action_destination_main_to_browse_images"
+            app:destination="@id/images_nav_graph"
+            app:popUpTo="@+id/destination_main"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <include app:graph="@navigation/images_nav_graph" />
+</navigation>

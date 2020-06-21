@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">"User: %s"</string>
+    <string name="tags">"Tags: %s"</string>
+    <string name="total_views">"Views: %d"</string>
+    <string name="total_likes">"Likes: %d"</string>
+    <string name="total_comments">"Comments: %d"</string>
+    <string name="total_favourites">"Favourites: %d"</string>
+    <string name="total_downloads">"Downloads: %d"</string>
+</resources>

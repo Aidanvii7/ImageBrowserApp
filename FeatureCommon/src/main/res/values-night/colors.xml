@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/black</color>
+    <color name="textColorPrimary">@android:color/white</color>
+    <color name="textColorSecondary">#8B959E</color>
+    <!--    <color name="colorAccent">#F7455A</color>-->
+<!--    <color name="cardForegroundShimmer">#AA7E7E7E</color>-->
+</resources>

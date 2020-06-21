@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/images_nav_graph"
+    app:startDestination="@id/destination_browse_images">
+
+    <fragment
+        android:id="@+id/destination_browse_images"
+        android:name="com.imagebrowser.feature.images.presentation.browse.BrowseImagesFragment"
+        android:label="BrowseImagesFragment">
+        <action
+            android:id="@+id/action_destination_browse_images_to_destination_image_detail"
+            app:destination="@id/destination_image_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destination_image_detail"
+        android:name="com.imagebrowser.feature.images.presentation.detail.ImageDetailFragment"
+        android:label="ImageDetailFragment">
+        <argument
+            android:name="imageInfo"
+            app:argType="com.imagebrowser.feature.images.ImageInfo" />
+    </fragment>
+</navigation>
