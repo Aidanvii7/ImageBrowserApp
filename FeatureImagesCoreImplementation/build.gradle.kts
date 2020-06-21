@@ -70,12 +70,8 @@ dependencies {
     implementation(libraries.square.retrofit2Moshi)
     kapt(libraries.square.retrofit2Moshi)
     implementation(libraries.square.okHttp3LoggingInterceptor)
-    implementation(libraries.androidX.room.runtime)
     implementation(libraries.koin.core)
-    testImplementation(project(projectModules.testUtils))
-    testImplementation(libraries.androidX.ktx.liveData)
     testRuntimeOnly(libraries.junit5.engine)
-    kapt(libraries.androidX.room.compiler)
 }
 
 androidExtensions {

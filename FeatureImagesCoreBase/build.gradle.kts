@@ -38,7 +38,6 @@ android {
 dependencies {
     implementation(project(projectModules.common))
     api(libraries.androidX.paging.common)
-    testImplementation(project(projectModules.testUtils))
 }
 
 androidExtensions {

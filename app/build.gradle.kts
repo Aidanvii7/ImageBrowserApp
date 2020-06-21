@@ -48,7 +48,6 @@ dependencies {
     implementation(libraries.koin.viewModel)
     implementation(libraries.other.glide)
     implementation(libraries.square.okHttp3LoggingInterceptor)
-    testImplementation(project(projectModules.testUtils))
 }
 
 androidExtensions {

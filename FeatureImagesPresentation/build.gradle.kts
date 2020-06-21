@@ -45,7 +45,6 @@ dependencies {
     implementation(libraries.other.shimmer)
     implementation(libraries.androidX.navigation.fragment)
     implementation(libraries.androidX.navigation.ui)
-    testImplementation(project(projectModules.testUtils))
 }
 
 androidExtensions {

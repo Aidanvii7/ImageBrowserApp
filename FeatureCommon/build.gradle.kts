@@ -46,7 +46,6 @@ dependencies {
     api(libraries.google.material)
     api(libraries.other.shimmer)
     api(libraries.androidX.paging.runtime)
-    testImplementation(project(projectModules.testUtils))
 }
 
 androidExtensions {

@@ -43,7 +43,6 @@ dependencies {
     api(libraries.androidX.annotation)
     api(libraries.androidX.ktx.core)
     api(libraries.koin.core)
-    testImplementation(project(projectModules.testUtils))
 }
 
 androidExtensions {

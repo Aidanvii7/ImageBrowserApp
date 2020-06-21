@@ -201,15 +201,12 @@ object projectModules {
         }
     }
 
-    const val testUtils = ":TestUtils"
-
     val all = listOf(
         app,
         common,
         feature.common,
         feature.browseImages.presentation,
         feature.browseImages.coreBase,
-        feature.browseImages.coreImpl,
-        testUtils
+        feature.browseImages.coreImpl
     )
 }
